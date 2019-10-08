@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p th:inline="text">
+    The Car's name is [[${carjavabean.name}]].<br />
+    It is a [[${carjavabean.type}]].<br />
+    The car is described as
+    [[${carjavabean.description}]].
+</p>
+</body>
+</html>
